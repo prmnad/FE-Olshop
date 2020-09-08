@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* import fonts */
+@font-face {
+    font-family: MustardPersonalUse;
+    src: url('/fonts/MustardPersonalUse-5Vqx.ttf');
+}
+
+@font-face {
+    font-family: MontserratExtraLight;
+    src: url('/fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: MontserratLight;
+    src: url('/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url('/fonts/Montserrat-SemiBold.otf');
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: MustardPersonalUse;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-family: MontserratExtraLight;
+}
+
+.collapse a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.collapse a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(255, 215, 18);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.collapse a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    .collapse ul {
+        margin-top: 40px;
+    }
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.form-inline .btn {
+    font-family: MontserratExtraLight;
+}
+
+/* side bar */
+.col-md-2 {
+    background-color: #000;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    font-family: MontserratSemiBold;
+}
+
+.list-group-item {
+    font-family: MonsrratSemiBold;
+}
+
+/* content store */
+.col-md-10 h4 {
+    font-family: MontserratExtraLight;
+    font-size: 60px;
+}
+
+.col-md-12 h2 {
+    font-family: MontserratExtraLight;
+    font-size: 35px;
+}
+
+.card-title {
+    font-family: MontserratSemiBold;
+}
+
+/* copyright */
+.copyright {
+    background-color: #000;
+}
+
+.copyright p {
+    font-family: MontserratLight;
+}
+
+/* footer */
+.col-md-3 h5 {
+    font-family: MonsrratSemiBold;
+}
+
+.col-md-3 ul {
+    font-family: MontserratExtraLight;
+}
+
+.col-md-3 p {
+    font-family: MontserratExtraLight;
+}
+
+/* Footer */
+footer a {
+    color: white;
+    text-decoration: none;
+}
